@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.trucks_864f1729-dfb2-4a53-83ac-9112936860fb" model="ir.actions.act_window" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p class="o_view_nocontent_smiling_face">
+                    This is your new action.
+                </p>
+                <p>By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                </p>
+                <p>
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                </p>
+            ]]></field>
+    <field name="limit">80</field>
+    <field name="name">Trucks</field>
+    <field name="res_model">x_trucks</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">kanban,tree,form,calendar,gantt,map,pivot,graph</field>
+  </record>
+  <record id="studio_customization.trucks_stages_0249dea4-aa36-4d78-aa21-1387ed4dcb43" model="ir.actions.act_window" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p class="o_view_nocontent_smiling_face">
+                    This is your new action.
+                </p>
+                <p>By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                </p>
+                <p>
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                </p>
+            ]]></field>
+    <field name="limit">80</field>
+    <field name="name">Trucks Stages</field>
+    <field name="res_model">x_trucks_stage</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <record id="studio_customization.trucks_tags_a36ab812-361a-4532-825c-fe541de3b844" model="ir.actions.act_window" context="{'studio': True}">
+    <field name="binding_model_id" eval="False"/>
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p class="o_view_nocontent_smiling_face">
+                    This is your new action.
+                </p>
+                <p>By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                </p>
+                <p>
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                </p>
+            ]]></field>
+    <field name="limit">80</field>
+    <field name="name">Trucks Tags</field>
+    <field name="res_model">x_trucks_tag</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>
